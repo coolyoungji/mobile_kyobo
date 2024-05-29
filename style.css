@@ -24,16 +24,16 @@
 #family__menu li a { padding: 13px 13px 13px 28px; line-height: 36px;}
 #family__menu li a {white-space:nowrap;}
 #family__menu li:nth-child(1) {background-color: #3E43A4;}
-#family__menu li:nth-child(1)::before {content: ''; display: inline-block; position: absolute; top:calc(50% - 8px); left:4px;  background: url(../images/logo_white.svg) no-repeat; width:33px; height: 14px;}
+#family__menu li:nth-child(1)::before {content: ''; display: inline-block; position: absolute; top:calc(50% - 8px); left:4px;  background: url(./images/logo_white.svg) no-repeat; width:33px; height: 14px;}
 
 #family__menu li:nth-child(2) {background-color: #156CDD;}
-#family__menu li:nth-child(2)::before {content: ''; display: inline-block; position: absolute;  top:calc(50% - 8px); left: 8px;  background: url(../images/icon_book.svg) no-repeat; width:16px; height: 16px;}
+#family__menu li:nth-child(2)::before {content: ''; display: inline-block; position: absolute;  top:calc(50% - 8px); left: 8px;  background: url(./images/icon_book.svg) no-repeat; width:16px; height: 16px;}
 
 #family__menu li:nth-child(3) {background-color: #06BBC0;}
-#family__menu li:nth-child(3)::before {content: ''; display: inline-block; position: absolute;  top:calc(50% - 8px); left: 8px;  background: url(../images/icon_phone.svg) no-repeat; width:16px; height: 16px;}
+#family__menu li:nth-child(3)::before {content: ''; display: inline-block; position: absolute;  top:calc(50% - 8px); left: 8px;  background: url(./images/icon_phone.svg) no-repeat; width:16px; height: 16px;}
 
 #family__menu li:nth-child(4) {background-color: #E8422F;}
-#family__menu li:nth-child(4)::before {content: ''; display: inline-block; position: absolute;  top:calc(50% - 5px); left: 12px;  background: url(../images/icon_hot.svg) no-repeat; width:20px; height: 20px;}
+#family__menu li:nth-child(4)::before {content: ''; display: inline-block; position: absolute;  top:calc(50% - 5px); left: 12px;  background: url(./images/icon_hot.svg) no-repeat; width:20px; height: 20px;}
 
 #family__menu li:nth-child(5) {background-color: #80bdff;}
 #family__menu li:nth-child(5) a {padding: 13px;}
