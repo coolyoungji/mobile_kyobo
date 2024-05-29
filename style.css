@@ -20,13 +20,18 @@ a {text-decoration: none; color: var(--black); font-size: 1rem; font-weight: 400
 .title h2 {font-size: 4vw; font-weight: 600;}
 .title {position: relative; display: flex; align-items: center;}
 .section__wrap {display: flex; justify-content: space-between; flex-wrap: nowrap; white-space: nowrap;}
-.section__border {width: 100%; height: 13px; background-color: #e9e9e9;}
+.section__border {width: 100%; height: 13px; background-color: #e9e9e9; margin: 1rem 0;}
 .book__wrap__white {padding: 1rem; background-color: #fff; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px;}
 .book__wrap__grey {padding: 1rem; background-color: #eee; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px; color:#A0A0A0;}
 .book__wrap__grey.on {background-color: #EBF4FF; color: #095CBC; font-weight: 900;}
 .book__wrap__blue {padding: 1rem; background-color: #EAF4FF;  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px;}
 .button_blue { display: inline-block; background-color: #3D8FEF; padding: 10px 15px; color: #fff; border-radius: 10px; text-align: center;}
 .view_btn { position: absolute; right: -19px; top:50%; transform: translate(-50%, -50%); vertical-align: top;   color: #3D8FEF; font-weight: 800; font-size: 0.8rem; }
+
+
+
+
+git
 
 /* layout */
 #header { position: absolute; left: 0; top:0; width: 100%; margin: 0 auto; z-index: 999; }
@@ -140,14 +145,18 @@ a {text-decoration: none; color: var(--black); font-size: 1rem; font-weight: 400
 
 
 /* 분야별 추천 */
+#recommen__book {padding-bottom:15%;}
 #recommen__book .title::before {content: '';  display: inline-block;  background-image: url(./images/ico_recom.svg); width: 50px; height: 50px; background-size: contain;}
 #recommen__book .recommen__menu { overflow-x:scroll; gap: 1rem;}
 #recommen__book .recommen__menu li {height: 30px; line-height: 30px;}
 #recommen__book .recommen__inner {width: 100%; gap: 1rem; flex-wrap: wrap;}
 #recommen__book .book__item {display: flex; align-items: center; justify-content: space-between;}
 #recommen__book .book__wrap__blue {width: 100%; }
-#recommen__book .book__item img {width: 100px;}
-#recommen__book .button_blue {width: 100%; background-color: #EBF4FF; color: #3D8FEF; font-weight: 500; vertical-align: top;}
+#recommen__book .book__item li:first-child {width: 40%;}
+#recommen__book .book__item li:last-child {width: 50%;}
+#recommen__book .book__item li:first-child img {width: 100%;}
+#recommen__book .book__item .ico_wish {display: inline-block; background: url(images/ico_heart.png)no-repeat; width: 18px; height: 18px; background-size: contain; opacity: 0.3;}
+#recommen__book .button_blue {width: 100%; background-color: #EBF4FF; color: #3D8FEF; font-weight: 500; vertical-align: top; margin-top: 3%;}
 
 
 
