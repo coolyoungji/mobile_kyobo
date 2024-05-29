@@ -12,8 +12,9 @@ main.book__wrap__white .book__obj img {width: 100%;}
 main.book__wrap__white .price__area li {padding: 0.6rem;}
 main.book__wrap__white .price__area span {color: var(--main-color); font-weight: 900;}
 main.book__wrap__white .price__area {display: flex; align-items: center; justify-content:space-between; gap: 1rem;}
-main.book__wrap__white .info__area {display: flex; justify-content: space-between; letter-spacing: -2px; gap: 0.5rem; text-align: center; font-size: 0.9rem; font-weight: 500; margin: 1rem 0; }
+main.book__wrap__white .info__area {display: flex; justify-content: space-between; letter-spacing: -2px; gap: 0.5rem; text-align: center; font-size: 3vw; font-weight: 500; margin: 1rem 0; }
 h1 > span {margin-left: auto;}
+main.book__wrap__white .info__area li:first-child.book__wrap__blue { height: auto; line-height: 32px;}
 
 .title__area { position: relative; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
 .title__area h1 {font-size: 1.1rem;}
@@ -33,7 +34,20 @@ h1 > span {margin-left: auto;}
 
 
 /* 상세 */
-.product__detail {margin-top: 5%;}
+
+.product__detail {margin-top: 5%; }
 .product__detail ul {display: flex; justify-content: space-between; align-items: center; height: 50px;  margin-bottom: 20px; border-bottom: 1px solid #A0A0A0; }
 .product__detail ul li a.on {color: var(--green-color); font-weight: 800; padding-bottom:10px; border-bottom: 4px solid var(--green-color); }
 .product__detail__area img {width: 100%;}
+
+
+/* footer */
+
+footer ul {display: flex; justify-content: space-between; align-items: center; width: 100%; padding:10px 10px; border-radius: 40px;}
+footer ul li {border: 2px solid var(--green-color); border-radius: 20px; font-size: 0.9rem; letter-spacing: -2px;}
+footer ul li { padding: 1rem; text-align: center;}
+footer ul li:nth-child(2) {flex: 1;}
+footer ul li:nth-child(3) {flex: 2;}
+footer ul li:nth-child(3) a:first-child {border-right: 2px solid red;}
+footer ul li a {font-weight: 600;}
+

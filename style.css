@@ -127,11 +127,7 @@
 #recommen__book .button_blue {width: 100%; background-color: #EBF4FF; color: #3D8FEF; font-weight: 500; vertical-align: top; margin-top: 3%;}
 
 
-
 /* footer */
-#tab__bar { position: fixed; left: 5%; bottom: 1%; display: flex; align-items: center; justify-content: space-between; width:90%; margin: 0 auto;
-background-color: #fff; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 15px;
-}
 #tab__bar li {padding: 10px 30px;}
 
 

@@ -30,5 +30,12 @@ a {text-decoration: none; color: var(--black); font-size: 1rem; font-weight: 400
 .view_btn { position: absolute; right: -19px; top:50%; transform: translate(-50%, -50%); vertical-align: top;   color: #3D8FEF; font-weight: 800; font-size: 0.8rem; }
 
 
+/* footer */
+#tab__bar { position: fixed; left: 5%; bottom: 1%; display: flex; align-items: center; justify-content: space-between; width:90%; margin: 0 auto;
+    background-color: #fff; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 15px;
+    }
+
+
+
 
 
