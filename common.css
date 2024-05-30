@@ -8,13 +8,15 @@ ul,li,ol { list-style:none; }
 img,fieldset,iframe { border:0; }
 img { vertical-align:top;}
 table { border-collapse:collapse; }
-a {text-decoration: none; color: var(--black); font-size: 1rem; font-weight: 400;}
+a {text-decoration: none; color: var(--text-primary); font-size: 1rem; font-weight: 400;}
 .blind {position:absolute; left:0; top:-99999px;}
 
 
 :root {
     --main-color:#095CBC;
     --green-color:#4DAC27;
+    --text-primary:#222;
+    --bg-primary:#EBF4FF;
 }
 /* common */
 .inner {  width: 90%; margin: 0 auto; /*border: 2px solid red;*/ }
@@ -24,7 +26,7 @@ a {text-decoration: none; color: var(--black); font-size: 1rem; font-weight: 400
 .section__border {width: 100%; height: 13px; background-color: #F2F1F1; margin: 1rem 0;}
 .book__wrap__white {padding: 1rem; background-color: #fff; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px;}
 .book__wrap__grey {padding: 1rem; background-color: #eee; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px; color:#A0A0A0;}
-.book__wrap__grey.on {background-color: #EBF4FF; color: #095CBC; font-weight: 900;}
+.book__wrap__grey.on {background-color: var(--bg-primary); color: var(--main-color); font-weight: 900;}
 .book__wrap__blue {padding: 1rem; background-color: #EAF4FF;  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px;}
 .button_blue { display: inline-block; background-color: #3D8FEF; padding: 10px 15px; color: #fff; border-radius: 10px; text-align: center;}
 .view_btn { position: absolute; right: -19px; top:50%; transform: translate(-50%, -50%); vertical-align: top;   color: #3D8FEF; font-weight: 800; font-size: 0.8rem; }
