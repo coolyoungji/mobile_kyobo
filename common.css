@@ -8,6 +8,7 @@ ul,li,ol { list-style:none; }
 img,fieldset,iframe { border:0; }
 img { vertical-align:top;}
 table { border-collapse:collapse; }
+button { border: 0; background-color: transparent; }
 a {text-decoration: none; color: var(--text-primary); font-size: 1rem; font-weight: 400;}
 .blind {position:absolute; left:0; top:-99999px;}
 
