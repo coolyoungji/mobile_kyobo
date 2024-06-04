@@ -21,8 +21,7 @@
 /* header - family__menu 패밀리 사이트 메뉴 */
 #family__menu { display: flex; align-items: center; gap: 0.5rem;}
 #family__menu li {position: relative; height: 36px; color: #fff; border-radius:20px; box-shadow: var(--shadow);}
-#family__menu li a { padding: 13px 13px 13px 28px; line-height: 36px;}
-#family__menu li a {white-space:nowrap;}
+#family__menu li a { padding: 13px 13px 13px 28px; line-height: 36px; white-space:nowrap; color: #fff; }
 #family__menu li:nth-child(1) {background-color: #3E43A4;}
 #family__menu li:nth-child(1)::before {content: ''; display: inline-block; position: absolute; top:calc(50% - 8px); left:4px;  background: url(./images/logo_white.svg) no-repeat; width:33px; height: 14px;}
 
