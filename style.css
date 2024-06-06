@@ -75,16 +75,20 @@
 #best__steady__wrap .book__wrap__white { position: relative; width: 50%; height: fit-content; margin-right: 3%;}
 #best__steady__wrap .book__wrap__white .book__item img { display: block; width: 120px;}
 #best__steady__wrap .book__wrap__white .book__item {width: 100%;}
+
 .sub_title, .book_title {
     display: block;
     overflow: hidden; 
-  text-overflow: ellipsis;  
-  white-space: nowrap; 		
-  word-break:break-all;
-  width: 120px;
-  height: 20px;
+    text-overflow: ellipsis;  
+    white-space: nowrap; 		
+    word-break:break-all;
+    width: 120px;
+    height: 20px;
 
 }
+#upswing__wrap .sub_title, .book_title {width: 100%;}
+
+#upswing__wrap .sub_title {margin-top: 5%;}
 
 .badge__flag {position: absolute; left: 0; top: 0;}
 .badge__flag span {position: absolute; left: 8px; top: 0; color: var(--main-color); font-weight: 800; font-size: 0.8rem;}
