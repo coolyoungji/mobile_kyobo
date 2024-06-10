@@ -21,8 +21,7 @@
 /* header - family__menu 패밀리 사이트 메뉴 */
 #family__menu { display: flex; align-items: center; gap: 0.5rem;}
 #family__menu li {position: relative; height: 36px; color: #fff; border-radius:20px; box-shadow: var(--shadow);}
-#family__menu li a { padding: 13px 13px 13px 28px; line-height: 36px;}
-#family__menu li a {white-space:nowrap;}
+#family__menu li a { padding: 13px 13px 13px 28px; line-height: 36px; white-space:nowrap; color: #fff; }
 #family__menu li:nth-child(1) {background-color: #3E43A4;}
 #family__menu li:nth-child(1)::before {content: ''; display: inline-block; position: absolute; top:calc(50% - 8px); left:4px;  background: url(./images/logo_white.svg) no-repeat; width:33px; height: 14px;}
 
@@ -45,7 +44,7 @@
 
 
 /* gnb */
-#gnb {background-color: #EAF4FF; border-radius: 20px;}
+#gnb {background-color: #EAF4FF; border-radius: 20px; margin-top: 3%;}
 #gnb ul {display: flex; align-items: center; justify-content: space-between; overflow: hidden; overflow-x: scroll;}
 #gnb ul li { height: 40px;}
 #gnb ul li a {padding: 2rem; line-height: 40px; white-space: nowrap;}
@@ -73,8 +72,24 @@
 #best__steady__wrap .best__stead__menu li.on { color: var(--main-color); font-weight: 900; border-bottom: 2px solid var(--main-color);}
 
 
-#best__steady__wrap .book__wrap__white { position: relative; width: 50%; height: fit-content; }
+#best__steady__wrap .book__wrap__white { position: relative; width: 50%; height: fit-content; margin-right: 3%;}
 #best__steady__wrap .book__wrap__white .book__item img { display: block; width: 120px;}
+#best__steady__wrap .book__wrap__white .book__item {width: 100%;}
+
+.sub_title, .book_title {
+    display: block;
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+    white-space: nowrap; 		
+    word-break:break-all;
+    width: 120px;
+    height: 20px;
+
+}
+#upswing__wrap .sub_title, .book_title {width: 100%;}
+
+#upswing__wrap .sub_title {margin-top: 5%;}
+
 .badge__flag {position: absolute; left: 0; top: 0;}
 .badge__flag span {position: absolute; left: 8px; top: 0; color: var(--main-color); font-weight: 800; font-size: 0.8rem;}
 .badge__flag img {width: 30px; height: 40px;}
@@ -95,6 +110,8 @@
 #new__book__Wrap .section__wrap li {flex: 1; width: 50%;}
 #new__book__Wrap .section__wrap li img {width: 100%;}
 #new__book__Wrap .section__wrap li>:first-of-type {display: block;}
+#new__book__Wrap .button_blue {width: 50%; margin-top: 3%;}
+#new__book__Wrap strong {color: var(--main-color); font-size: 2rem;}
 
 /* picks */
 #picks__Wrap .title::before {content: ''; display: inline-block;  background: url(./images/ico_picks.svg)no-repeat; background-size: contain; width: 50px; height: 55px; }
