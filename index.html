@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="euc-kr">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,10 +19,12 @@
             <ul class="search_bar">
                 <li>    
                     <form action="#">
-                        <legend class="blind">통합검색</legend>
-                        <label for="s1" class="blind">검색어 입력</label>
-                        <input type="text" id="s1" placeholder="통합검색">
-                        <input type="image" id="si" src="images/search.svg" alt="검색">
+                        <fieldset>
+                            <legend class="blind">통합검색</legend>
+                            <label for="s1" class="blind">검색어 입력</label>
+                            <input type="text" id="s1" placeholder="통합검색">
+                            <input type="image" id="si" src="images/search.svg" alt="검색">
+                        </fieldset>
                     </form>
                 </li>
             </ul>
@@ -255,7 +257,7 @@
 
 
         <section id="recommen__book" class="inner">
-            <h2 class="title">분야별 추천</h2></li>
+            <h2 class="title">분야별 추천</h2>
             <ul class="recommen__menu section__wrap ">
                 <li><a href="#" class="book__wrap__grey on">학습/어학</a></li>
                 <li><a href="#" class="book__wrap__grey">외국도서</a></li>
